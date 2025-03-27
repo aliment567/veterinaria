@@ -27,6 +27,7 @@ insert into  mascotas (nombre, especie, raza, edad, identificacion) values
     -> ('copo', 'gato', 'siames', '7', '6789'),
     -> ('lupi', 'ave', 'canario', '3', '4578'),
     -> ('black', 'gato', 'persa', '4', '7980');
+
 -CONSULTAMOS LOS DATOS DE LA TABLA:    
 
 select * from mascotas;
