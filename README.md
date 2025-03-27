@@ -6,7 +6,7 @@
 
 create database veterinaria;
 
--LE PEDIMOS QUE UTILIZE LA BASE DE DATOS
+-LE PEDIMOS QUE UTILIZE LA BASE DE DATOS:
 
 use veterinaria;
 
