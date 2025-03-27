@@ -16,8 +16,8 @@ select * from mascotas;
 alter table mascotas
      add column dueño varchar(45),
      add column telefono_dueño varchar(15);
- update mascotas set dueño = 'felipe', telefono_dueño = '3057283942' where nombre = 'luna';
- update mascotas set dueño = 'brayan', telefono_dueño = '3067289942' where nombre = 'max';
+update mascotas set dueño = 'felipe', telefono_dueño = '3057283942' where nombre = 'luna';
+update mascotas set dueño = 'brayan', telefono_dueño = '3067289942' where nombre = 'max';
 select * from mascotas where especie = 'perro' or especie = 'ave';
 select * from mascotas where especie = 'gato' and raza = 'persa';
 
